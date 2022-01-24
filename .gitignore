@@ -131,3 +131,4 @@ dmypy.json
 #pycharm
 .idea/
 do_it_django_prj/my_settings.py
+blog/migrations/
