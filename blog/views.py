@@ -1,10 +1,12 @@
 from .models import Post
 from django.views.generic import ListView, DetailView
 
-
 class PostList(ListView):
     model = Post
+#   역순 처리 '-**'
     ordering = '-pk'
+
+# indes(request)관습적으로 리퀘스트 함.
 # def index(request):
 #     posts = Post.objects.all()
 #
